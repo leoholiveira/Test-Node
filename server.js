@@ -7,10 +7,10 @@ const app = express();
 const port = 3001;
 
 db_config = { 
-  user: 'leonardo',
+  user: 'user_database',
   host: 'localhost',
-  database: 'test_facilita',
-  password: '',
+  database: 'name_database',
+  password: 'password_database',
   port: 5432,
 }
 

@@ -15,6 +15,18 @@ This project is an API server for another frontend project that is built with Re
 | `coord_x` | `float4` | **Not Null**.               |
 | `coord_y` | `float4` | **Not Null**.               |
 
+## Config var with your database data (server.js):
+
+```
+  db_config = { 
+    user: 'user_database',
+    host: 'localhost',
+    database: 'name_database',
+    password: 'password_database',
+    port: 5432,
+  }
+```
+
 ## Run Locally
 
 Clone the project
